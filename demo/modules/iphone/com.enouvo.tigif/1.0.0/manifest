@@ -1,0 +1,18 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 1.0.0
+apiversion: 2
+architectures: armv7 arm64 i386 x86_64
+description: Allows displaying animated GIFs on iOS applications built with Appcelerator Titanium and based on FLAnimatedImage(Flipboard)
+author: Duy Bao Nguyen
+license: MIT / Creative Commons
+copyright: Copyright (c) 2015 by Enouvo
+
+# these should not be edited
+name: com.enouvo.tigif
+moduleid: com.enouvo.tigif
+guid: b4b8ffd5-76a7-4487-9b22-1ecf8cf224bb
+platform: iphone
+minsdk: 3.5.1.GA

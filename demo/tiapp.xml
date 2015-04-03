@@ -49,6 +49,7 @@
 		<theme>default</theme>
 	</mobileweb>
 	<modules>
+		<module platform="iphone">com.enouvo.tigif</module>
 	</modules>
 	<deployment-targets>
 		<target device="android">false</target>
