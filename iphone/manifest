@@ -5,10 +5,10 @@
 version: 1.0.0
 apiversion: 2
 architectures: armv7 arm64 i386 x86_64
-description: com.enouvo.tigif
-author: Your Name
-license: Specify your license
-copyright: Copyright (c) 2015 by Your Company
+description: Allows displaying animated GIFs on iOS applications built with Appcelerator Titanium and based on FLAnimatedImage(Flipboard)
+author: Duy Bao Nguyen
+license: MIT / Creative Commons
+copyright: Copyright (c) 2015 by Enouvo
 
 # these should not be edited
 name: com.enouvo.tigif
