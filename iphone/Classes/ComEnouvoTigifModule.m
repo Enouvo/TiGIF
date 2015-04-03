@@ -52,7 +52,7 @@
 -(void)dealloc
 {
 	// release any resources that have been retained by the module
-	[super dealloc];
+	// [super dealloc];
 }
 
 #pragma mark Internal Memory Management
