@@ -14,6 +14,7 @@ TITANIUM_SDK = /Users/bduyng/Library/Application Support/Titanium/mobilesdk/osx/
 TITANIUM_BASE_SDK = "$(TITANIUM_SDK)/iphone/include"
 TITANIUM_BASE_SDK2 = "$(TITANIUM_SDK)/iphone/include/TiCore"
 TITANIUM_BASE_SDK3 = "$(TITANIUM_SDK)/iphone/include/JavaScriptCore"
+TITANIUM_BASE_SDK3 = "$(TITANIUM_SDK)/iphone/include/APSHTTPClient"
 HEADER_SEARCH_PATHS= $(TITANIUM_BASE_SDK) $(TITANIUM_BASE_SDK2) $(TITANIUM_BASE_SDK3)
 
 

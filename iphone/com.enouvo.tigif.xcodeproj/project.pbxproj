@@ -32,6 +32,8 @@
 		E1D443671ACE17ED00E898B4 /* FLAnimatedImage.m in Sources */ = {isa = PBXBuildFile; fileRef = E1D443631ACE17ED00E898B4 /* FLAnimatedImage.m */; };
 		E1D443681ACE17ED00E898B4 /* FLAnimatedImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = E1D443641ACE17ED00E898B4 /* FLAnimatedImageView.h */; };
 		E1D443691ACE17ED00E898B4 /* FLAnimatedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = E1D443651ACE17ED00E898B4 /* FLAnimatedImageView.m */; };
+		E1D4436D1ACE192B00E898B4 /* TiUIImageView+GIF.h in Headers */ = {isa = PBXBuildFile; fileRef = E1D4436B1ACE192B00E898B4 /* TiUIImageView+GIF.h */; };
+		E1D4436E1ACE192B00E898B4 /* TiUIImageView+GIF.m in Sources */ = {isa = PBXBuildFile; fileRef = E1D4436C1ACE192B00E898B4 /* TiUIImageView+GIF.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,8 @@
 		E1D443631ACE17ED00E898B4 /* FLAnimatedImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FLAnimatedImage.m; path = Classes/FLAnimatedImage.m; sourceTree = "<group>"; };
 		E1D443641ACE17ED00E898B4 /* FLAnimatedImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FLAnimatedImageView.h; path = Classes/FLAnimatedImageView.h; sourceTree = "<group>"; };
 		E1D443651ACE17ED00E898B4 /* FLAnimatedImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FLAnimatedImageView.m; path = Classes/FLAnimatedImageView.m; sourceTree = "<group>"; };
+		E1D4436B1ACE192B00E898B4 /* TiUIImageView+GIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "TiUIImageView+GIF.h"; path = "Classes/TiUIImageView+GIF.h"; sourceTree = "<group>"; };
+		E1D4436C1ACE192B00E898B4 /* TiUIImageView+GIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "TiUIImageView+GIF.m"; path = "Classes/TiUIImageView+GIF.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				24DE9E1011C5FE74003F90F6 /* ComEnouvoTigifModuleAssets.m */,
 				24DD6CF71134B3F500162E58 /* ComEnouvoTigifModule.h */,
 				24DD6CF81134B3F500162E58 /* ComEnouvoTigifModule.m */,
+				E1D4436B1ACE192B00E898B4 /* TiUIImageView+GIF.h */,
+				E1D4436C1ACE192B00E898B4 /* TiUIImageView+GIF.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -140,6 +146,7 @@
 				AA747D9F0F9514B9006C5449 /* ComEnouvoTigif_Prefix.pch in Headers */,
 				24DD6CF91134B3F500162E58 /* ComEnouvoTigifModule.h in Headers */,
 				E1D443681ACE17ED00E898B4 /* FLAnimatedImageView.h in Headers */,
+				E1D4436D1ACE192B00E898B4 /* TiUIImageView+GIF.h in Headers */,
 				24DE9E1111C5FE74003F90F6 /* ComEnouvoTigifModuleAssets.h in Headers */,
 				E1D443661ACE17ED00E898B4 /* FLAnimatedImage.h in Headers */,
 			);
@@ -219,6 +226,7 @@
 				24DE9E1211C5FE74003F90F6 /* ComEnouvoTigifModuleAssets.m in Sources */,
 				E1D443671ACE17ED00E898B4 /* FLAnimatedImage.m in Sources */,
 				E1D443691ACE17ED00E898B4 /* FLAnimatedImageView.m in Sources */,
+				E1D4436E1ACE192B00E898B4 /* TiUIImageView+GIF.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
