@@ -1,5 +1,3 @@
-function doClick(e) {
-    alert($.label.text);
-}
+$.image.gif = "http://raphaelschaad.com/static/nyan.gif";
 
 $.index.open();
