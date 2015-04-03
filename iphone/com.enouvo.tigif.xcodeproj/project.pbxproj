@@ -28,6 +28,10 @@
 		24DE9E1211C5FE74003F90F6 /* ComEnouvoTigifModuleAssets.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DE9E1011C5FE74003F90F6 /* ComEnouvoTigifModuleAssets.m */; };
 		AA747D9F0F9514B9006C5449 /* ComEnouvoTigif_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* ComEnouvoTigif_Prefix.pch */; };
 		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+		E1D443661ACE17ED00E898B4 /* FLAnimatedImage.h in Headers */ = {isa = PBXBuildFile; fileRef = E1D443621ACE17ED00E898B4 /* FLAnimatedImage.h */; };
+		E1D443671ACE17ED00E898B4 /* FLAnimatedImage.m in Sources */ = {isa = PBXBuildFile; fileRef = E1D443631ACE17ED00E898B4 /* FLAnimatedImage.m */; };
+		E1D443681ACE17ED00E898B4 /* FLAnimatedImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = E1D443641ACE17ED00E898B4 /* FLAnimatedImageView.h */; };
+		E1D443691ACE17ED00E898B4 /* FLAnimatedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = E1D443651ACE17ED00E898B4 /* FLAnimatedImageView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,19 +40,23 @@
 			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = D2AAC07D0554694100DB518D;
-			remoteInfo = "com.enouvo.tigif";
+			remoteInfo = com.enouvo.tigif;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		24DD6CF71134B3F500162E58 /* ComEnouvoTigifModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "ComEnouvoTigifModule.h"; path = "Classes/ComEnouvoTigifModule.h"; sourceTree = "<group>"; };
-		24DD6CF81134B3F500162E58 /* ComEnouvoTigifModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "ComEnouvoTigifModule.m"; path = "Classes/ComEnouvoTigifModule.m"; sourceTree = "<group>"; };
+		24DD6CF71134B3F500162E58 /* ComEnouvoTigifModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ComEnouvoTigifModule.h; path = Classes/ComEnouvoTigifModule.h; sourceTree = "<group>"; };
+		24DD6CF81134B3F500162E58 /* ComEnouvoTigifModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ComEnouvoTigifModule.m; path = Classes/ComEnouvoTigifModule.m; sourceTree = "<group>"; };
 		24DD6D1B1134B66800162E58 /* titanium.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = titanium.xcconfig; sourceTree = "<group>"; };
-		24DE9E0F11C5FE74003F90F6 /* ComEnouvoTigifModuleAssets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "ComEnouvoTigifModuleAssets.h"; path = "Classes/ComEnouvoTigifModuleAssets.h"; sourceTree = "<group>"; };
-		24DE9E1011C5FE74003F90F6 /* ComEnouvoTigifModuleAssets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "ComEnouvoTigifModuleAssets.m"; path = "Classes/ComEnouvoTigifModuleAssets.m"; sourceTree = "<group>"; };
-		AA747D9E0F9514B9006C5449 /* ComEnouvoTigif_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ComEnouvoTigif_Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		24DE9E0F11C5FE74003F90F6 /* ComEnouvoTigifModuleAssets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ComEnouvoTigifModuleAssets.h; path = Classes/ComEnouvoTigifModuleAssets.h; sourceTree = "<group>"; };
+		24DE9E1011C5FE74003F90F6 /* ComEnouvoTigifModuleAssets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ComEnouvoTigifModuleAssets.m; path = Classes/ComEnouvoTigifModuleAssets.m; sourceTree = "<group>"; };
+		AA747D9E0F9514B9006C5449 /* ComEnouvoTigif_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComEnouvoTigif_Prefix.pch; sourceTree = SOURCE_ROOT; };
 		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		D2AAC07E0554694100DB518D /* libComEnouvoTigif.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libComEnouvoTigif.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2AAC07E0554694100DB518D /* libComEnouvoTigif.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libComEnouvoTigif.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1D443621ACE17ED00E898B4 /* FLAnimatedImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FLAnimatedImage.h; path = Classes/FLAnimatedImage.h; sourceTree = "<group>"; };
+		E1D443631ACE17ED00E898B4 /* FLAnimatedImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FLAnimatedImage.m; path = Classes/FLAnimatedImage.m; sourceTree = "<group>"; };
+		E1D443641ACE17ED00E898B4 /* FLAnimatedImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FLAnimatedImageView.h; path = Classes/FLAnimatedImageView.h; sourceTree = "<group>"; };
+		E1D443651ACE17ED00E898B4 /* FLAnimatedImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FLAnimatedImageView.m; path = Classes/FLAnimatedImageView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +87,7 @@
 				0867D69AFE84028FC02AAC07 /* Frameworks */,
 				034768DFFF38A50411DB9C8B /* Products */,
 			);
-			name = "com.enouvo.tigif";
+			name = com.enouvo.tigif;
 			sourceTree = "<group>";
 		};
 		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
@@ -93,6 +101,7 @@
 		08FB77AEFE84172EC02AAC07 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				E1D4436A1ACE180600E898B4 /* FLAnimatedImage */,
 				24DE9E0F11C5FE74003F90F6 /* ComEnouvoTigifModuleAssets.h */,
 				24DE9E1011C5FE74003F90F6 /* ComEnouvoTigifModuleAssets.m */,
 				24DD6CF71134B3F500162E58 /* ComEnouvoTigifModule.h */,
@@ -110,6 +119,17 @@
 			name = "Other Sources";
 			sourceTree = "<group>";
 		};
+		E1D4436A1ACE180600E898B4 /* FLAnimatedImage */ = {
+			isa = PBXGroup;
+			children = (
+				E1D443621ACE17ED00E898B4 /* FLAnimatedImage.h */,
+				E1D443631ACE17ED00E898B4 /* FLAnimatedImage.m */,
+				E1D443641ACE17ED00E898B4 /* FLAnimatedImageView.h */,
+				E1D443651ACE17ED00E898B4 /* FLAnimatedImageView.m */,
+			);
+			name = FLAnimatedImage;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -119,7 +139,9 @@
 			files = (
 				AA747D9F0F9514B9006C5449 /* ComEnouvoTigif_Prefix.pch in Headers */,
 				24DD6CF91134B3F500162E58 /* ComEnouvoTigifModule.h in Headers */,
+				E1D443681ACE17ED00E898B4 /* FLAnimatedImageView.h in Headers */,
 				24DE9E1111C5FE74003F90F6 /* ComEnouvoTigifModuleAssets.h in Headers */,
+				E1D443661ACE17ED00E898B4 /* FLAnimatedImage.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +160,8 @@
 			);
 			dependencies = (
 			);
-			name = "com.enouvo.tigif";
-			productName = "com.enouvo.tigif";
+			name = com.enouvo.tigif;
+			productName = com.enouvo.tigif;
 			productReference = D2AAC07E0554694100DB518D /* libComEnouvoTigif.a */;
 			productType = "com.apple.product-type.library.static";
 		};
@@ -195,6 +217,8 @@
 			files = (
 				24DD6CFA1134B3F500162E58 /* ComEnouvoTigifModule.m in Sources */,
 				24DE9E1211C5FE74003F90F6 /* ComEnouvoTigifModuleAssets.m in Sources */,
+				E1D443671ACE17ED00E898B4 /* FLAnimatedImage.m in Sources */,
+				E1D443691ACE17ED00E898B4 /* FLAnimatedImageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,11 +239,11 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DSTROOT = "/tmp/ComEnouvoTigif.dst";
+				DSTROOT = /tmp/ComEnouvoTigif.dst;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ComEnouvoTigif_Prefix.pch";
+				GCC_PREFIX_HEADER = ComEnouvoTigif_Prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
 				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
 				GCC_VERSION = "";
@@ -239,7 +263,7 @@
 					"-DTI_POST_1_2",
 				);
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "ComEnouvoTigif";
+				PRODUCT_NAME = ComEnouvoTigif;
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				RUN_CLANG_STATIC_ANALYZER = NO;
@@ -253,11 +277,11 @@
 			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				DSTROOT = "/tmp/ComEnouvoTigif.dst";
+				DSTROOT = /tmp/ComEnouvoTigif.dst;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ComEnouvoTigif_Prefix.pch";
+				GCC_PREFIX_HEADER = ComEnouvoTigif_Prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
 				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
 				GCC_VERSION = "";
@@ -274,7 +298,7 @@
 				LIBRARY_SEARCH_PATHS = "";
 				OTHER_CFLAGS = "-DTI_POST_1_2";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "ComEnouvoTigif";
+				PRODUCT_NAME = ComEnouvoTigif;
 				RUN_CLANG_STATIC_ANALYZER = NO;
 				SDKROOT = iphoneos;
 				USER_HEADER_SEARCH_PATHS = "";
@@ -288,11 +312,11 @@
 				CLANG_CXX_LIBRARY = "libstdc++";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DSTROOT = "/tmp/ComEnouvoTigif.dst";
+				DSTROOT = /tmp/ComEnouvoTigif.dst;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ComEnouvoTigif_Prefix.pch";
+				GCC_PREFIX_HEADER = ComEnouvoTigif_Prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
 				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
 				GCC_VERSION = "";
@@ -311,7 +335,7 @@
 					"-DTI_POST_1_2",
 				);
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "ComEnouvoTigif";
+				PRODUCT_NAME = ComEnouvoTigif;
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				RUN_CLANG_STATIC_ANALYZER = NO;
@@ -326,11 +350,11 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LIBRARY = "libstdc++";
-				DSTROOT = "/tmp/ComEnouvoTigif.dst";
+				DSTROOT = /tmp/ComEnouvoTigif.dst;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ComEnouvoTigif_Prefix.pch";
+				GCC_PREFIX_HEADER = ComEnouvoTigif_Prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
 				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
 				GCC_VERSION = "";
@@ -346,7 +370,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_CFLAGS = "-DTI_POST_1_2";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "ComEnouvoTigif";
+				PRODUCT_NAME = ComEnouvoTigif;
 				RUN_CLANG_STATIC_ANALYZER = NO;
 				SDKROOT = iphoneos;
 				USER_HEADER_SEARCH_PATHS = "";
